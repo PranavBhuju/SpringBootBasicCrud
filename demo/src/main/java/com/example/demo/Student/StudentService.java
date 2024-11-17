@@ -13,7 +13,7 @@ import java.util.Optional;
 @Service
 public class StudentService {
 
-    private final   StudentRepository studentRepository;
+    private final  StudentRepository studentRepository;
     @Autowired
     public StudentService(StudentRepository studentRepository) {
         this.studentRepository = studentRepository;
